@@ -1,7 +1,7 @@
 ### GPU Checker
 
 ### Information
-- This [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) script will check the prices of the GPUs listed. More GPUs will be added by the days.
+- This [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
 
 ### Software Needed
 - [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
