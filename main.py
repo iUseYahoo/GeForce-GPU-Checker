@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
 from time import sleep
+import sys
+
+arg = sys.argv
 
 checkTime = 8
 
@@ -50,6 +53,16 @@ class CheckGPUs:
             print(f"[+] GeForce RTX 3070 Price: $709.99 : {getGPUPrice} | {gpu3070store}")
         sleep(checkTime)
 
+def sysarg():
+    if (arg[1] == "3090"):
+        Check3090Evga()
+    elif (arg[1] == "3080"):
+        Check3080Evga()
+    elif (arg[1] == "3070"):
+        Check3070Evga()
+    else:
+        print("That GPU isnt added.")
+        sys.exit()
 
 def PickGPUChecker():
     print("1 - 3090 (EVGA) | 2 - 3080 (EVGA) | 3 - 3070 (EVGA)")
@@ -79,4 +92,6 @@ def Check3070Evga():
     while True:
         CheckGPUs.gpu3070()
 
-PickGPUChecker()
+#PickGPUChecker()
+
+sysarg()
