@@ -3,6 +3,10 @@
 ### Information
 - This [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
 
+### Usage
+- `python3 main.py GPU` 
+- example: `python3 main.py 3090`
+
 ### Software Needed
 - [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
 
