@@ -1,4 +1,5 @@
 ### GPU Checker
+- Please note that the prices I've set into the script to check if the current page price isn't the same is in Australian Dollars.
 
 ### Information
 - This [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
